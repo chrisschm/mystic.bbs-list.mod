@@ -2,7 +2,8 @@
 This modification creates a BBS list in Mystic BBS
 
 ## Installation
-Copy all mps files into your Mystic installation directory, including paths and compile them using mide or mplc. The file with your preffered language should be placed into default theme direktory!
+Copy all files from src, including their paths, into your Mystic installation directory and compile the mps files using mide or mplc. 
+The MOD does not contain a default theme folder, so the content of the prepaid language must then be copied into it.
 
 ## Usage
 To use the script, create an entry in menu editor with
