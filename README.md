@@ -6,5 +6,7 @@ Copy all mps files into your Mystic installation directory, including paths and 
 
 ## Usage
 To use the script, create an entry in menu editor with
+
 Action: GX Execute MPL program
+
 Data  : bbsses <BBS List ID>
