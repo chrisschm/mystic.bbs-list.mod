@@ -67,7 +67,7 @@ Begin
     Halt;
   End;
 
-  WriteLn ('|CR|07ร|08ร[|15 B|07BS |15N|07ame |08]ร|07รรรรรรรรรรร|08ร[|15 T|07yp |08]ร|07ร|08ร[|15 A|07dresse / |15T|07el.|08 ]ร|07รรรรรรรร|08ร[|15 S|07oftware|08 ]ร|07ยป')
+  WriteLn ('|CR|07ษ|08อ[|15 B|07BS |15N|07ame |08]อ|07อออออออออออ|08อ[|15 T|07yp |08]อ|07อ|08อ[|15 A|07dresse / |15T|07el.|08 ]อ|07ออออออออ|08อ[|15 S|07oftware|08 ]อ|07ป')
 
   Total := 0;
 
@@ -107,11 +107,11 @@ Begin
         BBSTyp := 'Telnet'
       End
 
-      WriteLn ('|08ยบ |14' + PadRT(bbs_Name, 26, ' ') + '|09' + PadRT(BBSTyp, 8, ' ') + '|10' + PadRT(BBSAdresse,31, ' ') + '|12' + PadRT(bbs_Software, 11, ' ') + '|08ยบ')
+      WriteLn ('|08บ |14' + PadRT(bbs_Name, 26, ' ') + '|09' + PadRT(BBSTyp, 8, ' ') + '|10' + PadRT(BBSAdresse,31, ' ') + '|12' + PadRT(bbs_Software, 11, ' ') + '|08บ')
     End
   End;
 
-  WriteLn ('|07รร|08รรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรร|07รยผ|16|CR');
+  WriteLn ('|07ศอ|08อออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออ|07อผ|16|CR');
   fClose (ListFile)
 
 End;
