@@ -1,0 +1,3 @@
+# Mystic Programming Language (MPL) - treated as Pascal for syntax highlighting
+*.mps linguist-language=Pascal
+*.mps linguist-detectable=true
